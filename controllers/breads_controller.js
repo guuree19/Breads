@@ -9,7 +9,7 @@ const Bread = require('../models/bread.js')
 breads.get('/', (req, res) => {
     res.render('index',
       {
-        breads: bread,
+        breads: breads,
         title: 'resturant',
       }
       
@@ -57,5 +57,5 @@ breads.put('/:arrayIndex', (req, res) => {
 
 
 
-
+module.exports = breads
 
