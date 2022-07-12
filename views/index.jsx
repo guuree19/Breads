@@ -1,5 +1,5 @@
 const React = require('react')
-const Default = require('./layouts/Default')
+const Default = require('./layouts/default')
 
 function Index ({breads}) {
     return (
@@ -14,7 +14,7 @@ function Index ({breads}) {
                         return (
                         
                             <li key= {index}> 
-                                <a href ={`/breads/ ${index}`}> 
+                                <a href ={`/breads/${index}`}> 
                                     {bread.name}
 
                                 </a>
